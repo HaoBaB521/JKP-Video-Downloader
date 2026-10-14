@@ -1,0 +1,167 @@
+{
+  "manifest_name": {
+    "message": "Douyin動画ダウンローダー"
+  },
+  "manifest_description": {
+    "message": "透かしなしでDouyin動画をダウンロード。"
+  },
+  "popup_review": {
+    "message": "レビュー"
+  },
+  "popup_setting": {
+    "message": "設定"
+  },
+  "popup_feedback": {
+    "message": "フィードバック"
+  },
+  "popup_telegram": {
+    "message": "Telegram"
+  },
+  "popup_feedbackEmailSubject": {
+    "message": "Douyin動画ダウンローダーに関するフィードバック"
+  },
+  "options_videoCreator": {
+    "message": "クリエイター"
+  },
+  "options_videoDescription": {
+    "message": "説明"
+  },
+  "options_videoResolution": {
+    "message": "動画解像度"
+  },
+  "options_videoVid": {
+    "message": "動画ID"
+  },
+  "options_pageTitle": {
+    "message": "Douyin動画ダウンローダー"
+  },
+  "options_downloadSetting": {
+    "message": "ダウンロード設定"
+  },
+  "options_videoFileName": {
+    "message": "動画ファイル名"
+  },
+  "options_videoFileNameTooltip": {
+    "message": "ダウンロードされる動画ファイル名は、下の入力ボックスの属性と順序に従って生成され、スペースで区切られます。"
+  },
+  "options_videoCreatorWithAt": {
+    "message": "クリエイター名の前に@記号を追加"
+  },
+  "options_videoCreatorWithAtTooltip": {
+    "message": "ダウンロードされた動画ファイル名で、クリエイター名の前に@記号を付けるかどうか。"
+  },
+  "options_videoDescriptionWithHashtag": {
+    "message": "動画説明のハッシュタグを保持"
+  },
+  "options_videoDescriptionWithHashtagTip": {
+    "message": "ダウンロードされた動画ファイル名で、動画説明の#で始まるハッシュタグを保持するかどうか。"
+  },
+  "options_saveSetting": {
+    "message": "設定を保存"
+  },
+  "options_saveSuccess": {
+    "message": "保存成功"
+  },
+  "options_videoFileNameEmpty": {
+    "message": "動画ファイル名は空にできません。少なくとも1つ選択してください"
+  },
+  "options_downloadTipSetting": {
+    "message": "ダウンロード通知"
+  },
+  "options_downloadTipSettingTip": {
+    "message": "ダウンロードボタンをクリックすると、ウィンドウの右上にダウンロード通知が表示されます。"
+  },
+  "options_parseInformation": {
+    "message": "情報の解析"
+  },
+  "options_parseInformationTip": {
+    "message": "情報解析段階では、拡張機能がダウンロードに必要なすべての情報を解析します。"
+  },
+  "options_startDownload": {
+    "message": "ダウンロード開始"
+  },
+  "options_startDownloadTip": {
+    "message": "ダウンロード開始段階では、ブラウザがファイルのダウンロードを開始し、ブラウザのダウンロードページでダウンロードの進行状況を確認できます。"
+  },
+  "options_completeDownload": {
+    "message": "ダウンロード完了"
+  },
+  "options_completeDownloadTip": {
+    "message": "ダウンロード完了段階では、ファイルがダウンロードされ、エクスプローラーでダウンロードしたファイルを確認できます。"
+  },
+  "options_videoQuality": {
+    "message": "動画品質"
+  },
+  "options_videoQualityTip": {
+    "message": "どの品質で動画をダウンロードするか"
+  },
+  "options_videoHighestResolution": {
+    "message": "最高解像度"
+  },
+  "options_videoHighestBitrate": {
+    "message": "最高ビットレート"
+  },
+  "options_videoLargestFileSize": {
+    "message": "最大ファイルサイズ"
+  },
+  "options_downloadSubdirectory": {
+    "message": "ダウンロードサブディレクトリ"
+  },
+  "options_downloadSubdirectoryTip": {
+    "message": "ファイルダウンロード用のサブディレクトリ"
+  },
+  "options_enableSubdirectory": {
+    "message": "サブディレクトリ"
+  },
+  "options_enableSubdirectoryTip": {
+    "message": "ファイルをサブディレクトリにダウンロードするかどうか。"
+  },
+  "options_subdirectoryName": {
+    "message": "サブディレクトリ名"
+  },
+  "options_subdirectoryNameTip": {
+    "message": "サブディレクトリ名を指定"
+  },
+  "options_subdirectoryEmpty": {
+    "message": "サブディレクトリは空にできません"
+  },
+  "options_subdirectoryIllegal": {
+    "message": "サブディレクトリに不正な文字が含まれています"
+  },
+  "snackbar_parseInformation": {
+    "message": "情報を解析中"
+  },
+  "snackbar_parseInformationFail": {
+    "message": "動画情報の解析に失敗しました。ページを更新して再試行してください"
+  },
+  "snackbar_startDownload": {
+    "message": "ダウンロード開始"
+  },
+  "snackbar_completeDownload": {
+    "message": "ダウンロード完了"
+  },
+  "snackbar_downloadFailed": {
+    "message": "ダウンロードに失敗しました。ページを更新して再試行してください"
+  },
+  "snackbar_findVidError": {
+    "message": "動画情報の解析に失敗しました。開発者にメールでフィードバックをお願いします"
+  },
+  "options_fileNameLogic": {
+    "message": "ファイル名生成ロジック"
+  },
+  "options_fileNameLogicTip": {
+    "message": "動画ファイル名の生成に使うロジックを選択します。同時に有効化できるのは1つのみです。"
+  },
+  "options_fileNameLogicPrimary": {
+    "message": "メイン生成"
+  },
+  "options_fileNameLogicPrimaryTip": {
+    "message": "ページデータから作者・説明・タグを読み取りファイル名を生成。失敗時はDOM要素から読み取ります。"
+  },
+  "options_fileNameLogicBackup": {
+    "message": "2号生成"
+  },
+  "options_fileNameLogicBackupTip": {
+    "message": "アクティブなカードを特定して作者・説明を読み取ります。メインロジック失敗時に使用します。"
+  }
+}

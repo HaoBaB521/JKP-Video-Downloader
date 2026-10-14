@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Douyin Video Downloader</title>
+    <meta name="manifest.type" content="browser_action">
+    <script type="module" crossorigin src="/chunks/dep-Ay7StKIW.js"></script>
+    <link rel="modulepreload" crossorigin href="/chunks/md-BlvDkt29.js">
+    <link rel="stylesheet" crossorigin href="/assets/md-ClfakQyD.css">
+    <link rel="stylesheet" crossorigin href="/assets/dep-BeQrMhP8.css">
+    <style>
+      /* Apple-style glassmorphism for popup (download panel) */
+      html, body {
+        background: linear-gradient(135deg, #1c1c2e 0%, #20263f 45%, #14233f 100%) !important;
+        background-attachment: fixed;
+      }
+      #app {
+        backdrop-filter: blur(28px) saturate(190%);
+        -webkit-backdrop-filter: blur(28px) saturate(190%);
+        background: rgba(255,255,255,0.07) !important;
+        min-height: 100vh;
+      }
+      .v-card, .v-sheet, [class*="v-card"] {
+        background: rgba(255,255,255,0.08) !important;
+        backdrop-filter: blur(22px) saturate(170%);
+        -webkit-backdrop-filter: blur(22px) saturate(170%);
+        border: 1px solid rgba(255,255,255,0.14) !important;
+        box-shadow: 0 8px 30px rgba(0,0,0,0.35), inset 0 1px 0 rgba(255,255,255,0.1) !important;
+        border-radius: 14px !important;
+      }
+      .v-toolbar, header {
+        background: rgba(255,255,255,0.05) !important;
+        backdrop-filter: blur(18px) saturate(160%);
+        -webkit-backdrop-filter: blur(18px) saturate(160%);
+      }
+    </style>
+  </head>
+  <body>
+    <div id="app"></div>
+  </body>
+</html>

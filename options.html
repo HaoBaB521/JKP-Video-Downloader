@@ -1,0 +1,138 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Douyin Video Downloader</title>
+        <meta name="manifest.open_in_tab" content="true">
+      <script type="module" crossorigin src="/chunks/options-BAaOQ2Xu.js"></script>
+      <link rel="modulepreload" crossorigin href="/chunks/md-BlvDkt29.js">
+      <link rel="stylesheet" crossorigin href="/assets/md-ClfakQyD.css">
+      <link rel="stylesheet" crossorigin href="/assets/options-BXj-kahd.css">
+      <style>
+        html, body {
+          background: #0b0b14 !important;
+          background-attachment: fixed;
+          overflow-x: hidden;
+        }
+        /* 彩色光斑 (liquid glass blobs) */
+        .blob {
+          position: fixed;
+          border-radius: 50%;
+          filter: blur(90px);
+          opacity: .55;
+          z-index: 0;
+          pointer-events: none;
+        }
+        .blob-1 { width: 480px; height: 480px; background: #7c3aed; top: -120px; left: -80px; }
+        .blob-2 { width: 420px; height: 420px; background: #2563eb; bottom: -100px; left: 30%; }
+        .blob-3 { width: 380px; height: 380px; background: #db2777; top: 20%; right: -100px; }
+        .blob-4 { width: 300px; height: 300px; background: #0ea5e9; bottom: 10%; right: 20%; opacity:.4; }
+
+        .v-application, .v-application__wrap, #app {
+          position: relative;
+          z-index: 1;
+          background: transparent !important;
+          background-color: transparent !important;
+        }
+        .v-card, .v-sheet, [class*="v-card"] {
+          background: rgba(255,255,255,0.08) !important;
+          backdrop-filter: blur(28px) saturate(180%);
+          -webkit-backdrop-filter: blur(28px) saturate(180%);
+          border: 1px solid rgba(255,255,255,0.22) !important;
+          border-radius: 20px !important;
+          box-shadow: 0 8px 32px rgba(0,0,0,0.3), inset 0 1px 0 rgba(255,255,255,0.25) !important;
+        }
+        .v-toolbar {
+          background: rgba(255,255,255,0.05) !important;
+          backdrop-filter: blur(20px) saturate(160%);
+        }
+        /* 整个下载设置内容包在一个大玻璃面板里 */
+        .v-container {
+          background: rgba(255,255,255,0.07) !important;
+          border: 1px solid rgba(255,255,255,0.25) !important;
+          border-radius: 24px !important;
+          box-shadow: 0 12px 48px rgba(0,0,0,0.4), inset 0 1px 0 rgba(255,255,255,0.3) !important;
+          backdrop-filter: blur(30px) saturate(190%);
+          -webkit-backdrop-filter: blur(30px) saturate(190%);
+          padding: 28px !important;
+          margin-top: 40px !important;
+          margin-bottom: 40px !important;
+        }
+        /* 下拉框 / 输入框：只保留一层玻璃 */
+        .v-field, .v-input__control, .v-text-field, .v-select {
+          background: rgba(255,255,255,0.10) !important;
+          backdrop-filter: blur(20px) saturate(170%);
+          -webkit-backdrop-filter: blur(20px) saturate(170%);
+          border: 1px solid rgba(255,255,255,0.22) !important;
+          border-radius: 14px !important;
+          box-shadow: inset 0 1px 0 rgba(255,255,255,0.2) !important;
+          overflow: hidden !important;
+        }
+        /* 清掉所有内部覆盖层，避免重复玻璃 */
+        .v-field__outline, .v-field__outline__start, .v-field__outline__end,
+        .v-field__outline__notch, .v-field__underlay, .v-field__overlay,
+        .v-field__inverse, .v-field__default, .v-field::before, .v-field::after,
+        .v-field__selection, .v-select__selection, .v-field__prepend, .v-field__append-inner {
+          background: transparent !important;
+          background-color: transparent !important;
+          background-image: none !important;
+          border-color: transparent !important;
+          box-shadow: none !important;
+          opacity: 1 !important;
+        }
+        /* 下拉展开浮层：透明玻璃 */
+        .v-overlay__content, .v-menu__content, .v-list {
+          background: rgba(30,30,45,0.55) !important;
+          backdrop-filter: blur(30px) saturate(180%) !important;
+          -webkit-backdrop-filter: blur(30px) saturate(180%) !important;
+          border: 1px solid rgba(255,255,255,0.22) !important;
+          border-radius: 16px !important;
+          box-shadow: 0 12px 40px rgba(0,0,0,0.4), inset 0 1px 0 rgba(255,255,255,0.18) !important;
+        }
+        /* 表单项垂直间距统一，多选框下方开关行下移 */
+        .v-container .v-input, .v-container .v-select, .v-container .v-text-field {
+          margin-top: 14px !important;
+          margin-bottom: 14px !important;
+        }
+        /* 开关不包玻璃框，恢复原样，仅保留背后磨砂 */
+        .v-switch, .v-selection-control, .v-input--selection-controls,
+        .v-switch .v-input__control, .v-switch .v-field,
+        .v-selection-control .v-input__control {
+          background: transparent !important;
+          background-color: transparent !important;
+          border: none !important;
+          box-shadow: none !important;
+          backdrop-filter: none !important;
+          -webkit-backdrop-filter: none !important;
+        }
+      </style>
+    </head>
+    <body>
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+        <div class="blob blob-3"></div>
+        <div class="blob blob-4"></div>
+        <div id="app"></div>
+        <div id="douyin-changelog" style="position:fixed;left:16px;top:80px;width:250px;max-height:calc(100vh - 120px);overflow-y:auto;background:rgba(20,20,30,.55);color:#e8e8ec;border:1px solid rgba(255,255,255,.18);border-radius:16px;padding:18px 18px 20px;box-sizing:border-box;font-family:-apple-system,'Segoe UI','Microsoft YaHei',sans-serif;z-index:9999;box-shadow:0 10px 40px rgba(0,0,0,.35),inset 0 1px 0 rgba(255,255,255,.12);backdrop-filter:blur(22px) saturate(180%);-webkit-backdrop-filter:blur(22px) saturate(180%);">
+            <div style="font-size:15px;font-weight:700;color:#fff;margin-bottom:4px;">全新更新 · 版本说明</div>
+            <div style="font-size:12px;color:#9a9aa5;margin-bottom:14px;">v2.1 · D站伐浩</div>
+            <div style="font-size:12.5px;line-height:1.7;">
+                <div style="margin-bottom:18px;"><span style="color:#fff;font-weight:700;">功能</span> <span style="display:inline-block;background:#ef4444;color:#fff;font-size:8px;font-weight:700;border-radius:2px;padding:0 3px;margin-left:3px;">新</span><br>不管在作者主页、你的主页、点赞、收藏还是历史记录里，只要视频上有下载图标，基本都能一键下载，很少报错，实际速度主要看你的网络环境。</div>
+                <div style="margin-bottom:18px;"><span style="color:#fff;font-weight:700;">Performance</span> <span style="display:inline-block;background:#ef4444;color:#fff;font-size:8px;font-weight:700;border-radius:2px;padding:0 3px;margin-left:3px;">新</span><br>重新优化了视频解析方法，可以更快读取当前视频的直链，点开几乎就能下载，响应比旧版本明显更快。是否流畅还取决于浏览器反应和网络支持。</div>
+                <div style="margin-bottom:18px;"><span style="color:#fff;font-weight:700;">Stability</span> <span style="display:inline-block;background:#ef4444;color:#fff;font-size:8px;font-weight:700;border-radius:2px;padding:0 3px;margin-left:3px;">新</span><br>修复了偶尔卡顿、卡住、白屏、点击后长时间无反应等问题，现在稳定很多，几乎都能正常下载，除非浏览器本身反应很慢。</div>
+                <div style="margin-bottom:18px;"><span style="color:#fff;font-weight:700;">文件名</span> <span style="color:#9a9aa5;font-size:11px;font-weight:400;">File Name</span><br>支持「主要生成 / 2号生成」两套文件名逻辑，自动读取作者、描述、话题、清晰度、视频 ID，并过滤非法字符，文件名更安全规范。</div>
+                <div style="margin-bottom:18px;"><span style="color:#fff;font-weight:700;">全新 UI</span> <span style="display:inline-block;background:#ef4444;color:#fff;font-size:8px;font-weight:700;border-radius:2px;padding:0 3px;margin-left:3px;">新</span><br>采用苹果同款液态玻璃质感与磨砂效果，下载按钮改为全透明样式，整体更通透清爽，告别以前沉闷的纯黑界面。</div>
+                <div style="color:#9a9aa5;font-size:11px;margin-top:10px;">有什么问题可以直接在 B 站找我反馈。</div>
+                <div style="color:#bbb;font-size:11.5px;margin-top:14px;border-top:1px solid rgba(255,255,255,.08);padding-top:12px;line-height:1.9;">
+                    <div style="color:#fff;font-weight:700;margin-bottom:6px;">使用规则（请务必先阅读）</div>
+                    <div>① 禁止二次修改、反编译后重新打包分发</div>
+                    <div>② 禁止用于商业宣传、带货或推广活动</div>
+                    <div>③ 禁止倒卖、售卖、捆绑销售本扩展</div>
+                    <div>④ 禁止盗取、窃取他人作品或绕过平台权限</div>
+                    <div style="color:#888;margin-top:8px;">本软件由抖音创作者 伐浩 创作并拥有完整归属权，仅供个人学习交流使用。<br>拥有者：xiaomu850</div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

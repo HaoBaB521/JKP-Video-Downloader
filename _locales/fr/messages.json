@@ -1,0 +1,167 @@
+{
+  "manifest_name": {
+    "message": "Téléchargeur de Vidéos Douyin"
+  },
+  "manifest_description": {
+    "message": "Téléchargez des vidéos Douyin sans filigrane."
+  },
+  "popup_review": {
+    "message": "Avis"
+  },
+  "popup_setting": {
+    "message": "Paramètres"
+  },
+  "popup_feedback": {
+    "message": "Retour"
+  },
+  "popup_telegram": {
+    "message": "Telegram"
+  },
+  "popup_feedbackEmailSubject": {
+    "message": "Retour sur le Téléchargeur de Vidéos Douyin"
+  },
+  "options_videoCreator": {
+    "message": "Créateur"
+  },
+  "options_videoDescription": {
+    "message": "Description"
+  },
+  "options_videoResolution": {
+    "message": "Résolution vidéo"
+  },
+  "options_videoVid": {
+    "message": "ID de la vidéo"
+  },
+  "options_pageTitle": {
+    "message": "Téléchargeur de Vidéos Douyin"
+  },
+  "options_downloadSetting": {
+    "message": "Paramètres de téléchargement"
+  },
+  "options_videoFileName": {
+    "message": "Nom du fichier"
+  },
+  "options_videoFileNameTooltip": {
+    "message": "Le nom du fichier vidéo téléchargé sera généré selon les attributs et l'ordre dans la zone de saisie ci-dessous, séparés par des espaces."
+  },
+  "options_videoCreatorWithAt": {
+    "message": "Ajouter le symbole @ avant le nom du créateur"
+  },
+  "options_videoCreatorWithAtTooltip": {
+    "message": "Dans le nom du fichier téléchargé, s'il faut ajouter le symbole @ avant le nom du créateur."
+  },
+  "options_videoDescriptionWithHashtag": {
+    "message": "Conserver les hashtags dans la description"
+  },
+  "options_videoDescriptionWithHashtagTip": {
+    "message": "Dans le nom du fichier téléchargé, s'il faut conserver les hashtags commençant par # dans la description de la vidéo."
+  },
+  "options_saveSetting": {
+    "message": "Enregistrer les paramètres"
+  },
+  "options_saveSuccess": {
+    "message": "Enregistrement réussi"
+  },
+  "options_videoFileNameEmpty": {
+    "message": "Le nom du fichier ne peut pas être vide, veuillez en sélectionner au moins un"
+  },
+  "options_downloadTipSetting": {
+    "message": "Notification de téléchargement"
+  },
+  "options_downloadTipSettingTip": {
+    "message": "Lors du clic sur le bouton de téléchargement, une notification apparaîtra dans le coin supérieur droit de la fenêtre."
+  },
+  "options_parseInformation": {
+    "message": "Analyse des informations"
+  },
+  "options_parseInformationTip": {
+    "message": "Dans la phase d'analyse des informations, l'extension analysera toutes les informations nécessaires au téléchargement."
+  },
+  "options_startDownload": {
+    "message": "Démarrer le téléchargement"
+  },
+  "options_startDownloadTip": {
+    "message": "Dans la phase de démarrage du téléchargement, vous verrez le navigateur commencer à télécharger le fichier et vous pourrez vérifier la progression sur la page de téléchargement du navigateur."
+  },
+  "options_completeDownload": {
+    "message": "Téléchargement terminé"
+  },
+  "options_completeDownloadTip": {
+    "message": "Dans la phase de fin de téléchargement, le fichier a été téléchargé et vous pouvez voir le fichier téléchargé dans l'explorateur de fichiers."
+  },
+  "options_videoQuality": {
+    "message": "Qualité vidéo"
+  },
+  "options_videoQualityTip": {
+    "message": "Dans quelle qualité télécharger les vidéos"
+  },
+  "options_videoHighestResolution": {
+    "message": "Résolution maximale"
+  },
+  "options_videoHighestBitrate": {
+    "message": "Débit maximal"
+  },
+  "options_videoLargestFileSize": {
+    "message": "Taille de fichier maximale"
+  },
+  "options_downloadSubdirectory": {
+    "message": "Sous-dossier de téléchargement"
+  },
+  "options_downloadSubdirectoryTip": {
+    "message": "Sous-dossier pour les téléchargements de fichiers"
+  },
+  "options_enableSubdirectory": {
+    "message": "Sous-dossier"
+  },
+  "options_enableSubdirectoryTip": {
+    "message": "Si les fichiers doivent être téléchargés dans un sous-dossier."
+  },
+  "options_subdirectoryName": {
+    "message": "Nom du sous-dossier"
+  },
+  "options_subdirectoryNameTip": {
+    "message": "Spécifier le nom du sous-dossier"
+  },
+  "options_subdirectoryEmpty": {
+    "message": "Le sous-dossier ne peut pas être vide"
+  },
+  "options_subdirectoryIllegal": {
+    "message": "Le sous-dossier contient des caractères non valides"
+  },
+  "snackbar_parseInformation": {
+    "message": "Analyse des informations"
+  },
+  "snackbar_parseInformationFail": {
+    "message": "Échec de l'analyse des informations vidéo, veuillez actualiser la page et réessayer"
+  },
+  "snackbar_startDownload": {
+    "message": "Démarrage du téléchargement"
+  },
+  "snackbar_completeDownload": {
+    "message": "Téléchargement terminé"
+  },
+  "snackbar_downloadFailed": {
+    "message": "Échec du téléchargement, veuillez actualiser la page et réessayer"
+  },
+  "snackbar_findVidError": {
+    "message": "Échec de l'analyse des informations vidéo, veuillez envoyer un e-mail au développeur pour signaler le problème"
+  },
+  "options_fileNameLogic": {
+    "message": "Logique de nom de fichier"
+  },
+  "options_fileNameLogicTip": {
+    "message": "Choisissez la logique utilisée pour générer le nom du fichier vidéo. Une seule peut être activée à la fois."
+  },
+  "options_fileNameLogicPrimary": {
+    "message": "Générateur principal"
+  },
+  "options_fileNameLogicPrimaryTip": {
+    "message": "Lit l'auteur, la description et les tags depuis les données de la page, avec repli sur les éléments DOM."
+  },
+  "options_fileNameLogicBackup": {
+    "message": "Générateur 2"
+  },
+  "options_fileNameLogicBackupTip": {
+    "message": "Localise la carte active pour lire l'auteur et la description, en cas d'échec de la logique principale."
+  }
+}

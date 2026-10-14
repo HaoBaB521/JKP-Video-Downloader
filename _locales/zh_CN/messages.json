@@ -1,0 +1,167 @@
+{
+  "manifest_name": {
+    "message": "JKP（专注于视频下载）"
+  },
+  "manifest_description": {
+    "message": "专门用于抖音的下载器。\n2026.10.14 (Release)\n个人制作扩展\n仅供学习研究，禁止商用，请勿二次分发"
+  },
+  "popup_review": {
+    "message": "评价"
+  },
+  "popup_setting": {
+    "message": "设置"
+  },
+  "popup_feedback": {
+    "message": "反馈"
+  },
+  "popup_telegram": {
+    "message": "Telegram"
+  },
+  "popup_feedbackEmailSubject": {
+    "message": "关于抖音视频下载器的反馈"
+  },
+  "options_videoCreator": {
+    "message": "作者"
+  },
+  "options_videoDescription": {
+    "message": "描述"
+  },
+  "options_videoResolution": {
+    "message": "视频分辨率"
+  },
+  "options_videoVid": {
+    "message": "视频ID"
+  },
+  "options_pageTitle": {
+    "message": "抖音视频下载器"
+  },
+  "options_downloadSetting": {
+    "message": "下载设置"
+  },
+  "options_videoFileName": {
+    "message": "视频文件名"
+  },
+  "options_videoFileNameTooltip": {
+    "message": "下载的视频文件名将根据下方输入框中的属性及顺序生成，以空格分隔。"
+  },
+  "options_videoCreatorWithAt": {
+    "message": "在视频作者名称前添加 @ 符号"
+  },
+  "options_videoCreatorWithAtTooltip": {
+    "message": "在下载的视频文件名中，是否在作者名称前添加 @ 符号。"
+  },
+  "options_videoDescriptionWithHashtag": {
+    "message": "视频描述保留话题标签"
+  },
+  "options_videoDescriptionWithHashtagTip": {
+    "message": "在下载的视频文件名中，是否保留视频描述中以 # 开头的话题标签。"
+  },
+  "options_saveSetting": {
+    "message": "保存设置"
+  },
+  "options_saveSuccess": {
+    "message": "保存成功"
+  },
+  "options_videoFileNameEmpty": {
+    "message": "视频文件名不能为空，请至少选择一项"
+  },
+  "options_downloadTipSetting": {
+    "message": "下载提示"
+  },
+  "options_downloadTipSettingTip": {
+    "message": "点击下载按钮时，窗口右上角会出现下载提示。"
+  },
+  "options_parseInformation": {
+    "message": "解析信息"
+  },
+  "options_parseInformationTip": {
+    "message": "在解析信息阶段，扩展将解析下载所需的所有信息。"
+  },
+  "options_startDownload": {
+    "message": "开始下载"
+  },
+  "options_startDownloadTip": {
+    "message": "在开始下载阶段，您可以看到浏览器开始下载文件，并且可以在浏览器的下载页面查看下载进度。"
+  },
+  "options_completeDownload": {
+    "message": "下载完成"
+  },
+  "options_completeDownloadTip": {
+    "message": "在下载完成阶段，文件已下载完毕，您可以在资源管理器中查看下载的文件。"
+  },
+  "options_videoQuality": {
+    "message": "视频质量"
+  },
+  "options_videoQualityTip": {
+    "message": "以何种质量下载视频"
+  },
+  "options_videoHighestResolution": {
+    "message": "最高分辨率"
+  },
+  "options_videoHighestBitrate": {
+    "message": "最高码率"
+  },
+  "options_videoLargestFileSize": {
+    "message": "最大文件大小"
+  },
+  "options_downloadSubdirectory": {
+    "message": "下载子目录"
+  },
+  "options_downloadSubdirectoryTip": {
+    "message": "文件下载的子目录"
+  },
+  "options_enableSubdirectory": {
+    "message": "子目录"
+  },
+  "options_enableSubdirectoryTip": {
+    "message": "是否将文件下载到子目录。"
+  },
+  "options_subdirectoryName": {
+    "message": "子目录名称"
+  },
+  "options_subdirectoryNameTip": {
+    "message": "指定子目录名称"
+  },
+  "options_subdirectoryEmpty": {
+    "message": "子目录不能为空"
+  },
+  "options_subdirectoryIllegal": {
+    "message": "子目录包含非法字符"
+  },
+  "snackbar_parseInformation": {
+    "message": "正在解析信息"
+  },
+  "snackbar_parseInformationFail": {
+    "message": "解析视频信息失败，请刷新页面并重试"
+  },
+  "snackbar_startDownload": {
+    "message": "开始下载"
+  },
+  "snackbar_completeDownload": {
+    "message": "下载完成"
+  },
+  "snackbar_downloadFailed": {
+    "message": "下载失败，请刷新页面重试"
+  },
+  "snackbar_findVidError": {
+    "message": "解析视频信息失败，请发送邮件向开发者反馈问题"
+  },
+  "options_fileNameLogic": {
+    "message": "文件名生成逻辑"
+  },
+  "options_fileNameLogicTip": {
+    "message": "选择生成视频文件名所使用的主逻辑或备用逻辑，二者只能启用一个。"
+  },
+  "options_fileNameLogicPrimary": {
+    "message": "主要生成"
+  },
+  "options_fileNameLogicPrimaryTip": {
+    "message": "从页面数据读取作者、描述、话题生成文件名，失败时自动回退到页面元素读取。"
+  },
+  "options_fileNameLogicBackup": {
+    "message": "2号生成"
+  },
+  "options_fileNameLogicBackupTip": {
+    "message": "通过页面卡片元素精确定位当前视频并读取作者、描述生成文件名，适用于主逻辑无法识别时切换。"
+  }
+}

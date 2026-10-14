@@ -1,0 +1,71 @@
+{
+  "update_url": "https://clients2.google.com/service/update2/crx",
+  "manifest_version": 3,
+  "name": "__MSG_manifest_name__",
+  "description": "__MSG_manifest_description__",
+  "version": "2.1",
+  "icons": {
+    "16": "icon/16.png",
+    "32": "icon/32.png",
+    "48": "icon/48.png",
+    "128": "icon/128.png",
+    "256": "icon/256.png"
+  },
+  "default_locale": "zh_CN",
+  "permissions": [
+    "downloads",
+    "webRequest",
+    "storage"
+  ],
+  "host_permissions": [
+    "https://*.douyin.com/*",
+    "https://*.douyinvod.com/*",
+    "https://*.snssdk.com/*",
+    "https://*.douyinpic.com/*",
+    "https://*.amemv.com/*",
+    "https://*.douyinstatic.com/*",
+    "https://*.iesdouyin.com/*",
+    "https://*.ixigua.com/*"
+  ],
+  "web_accessible_resources": [
+    {
+      "matches": [
+        "https://*.douyin.com/*"
+      ],
+      "resources": [
+        "*.svg",
+        "fetcher.js",
+        "*.js.map"
+      ]
+    }
+  ],
+  "action": {
+    "default_icon": {
+      "16": "icon/16.png",
+      "32": "icon/32.png",
+      "48": "icon/48.png",
+      "128": "icon/128.png"
+    }
+  },
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAnio6mNRLs43dRIaFMW9e19pDWNvL320ujrKzAFuVfL5hL0MOZxpxa5aKLU9DFuxfPiywebUuioWxAPXPX5JUXGGwfcguQJFg/pCr+xn9FGDcmHBLxhxspGBnx7dHTR1wlTIJfqL+V7ifwykjZ4bhRsEg2uQXfu5GKjtIViBpmbKbEVM1FcPyFwONCl9VYyni1ndsONroGKAllvHekbvxWBZDMC7La2QNq2S8qv7PQh9d/T7ZZqg3576/sJnDa720O0K3+AxmtRN/5PRT45pA2mqaKkIFL50QQmbp+0ztXrqb8iNnEGXqsrXA65cfeXqwkYbxGUngbGQkx7qfqJxknQIDAQAB",
+  "background": {
+    "service_worker": "background.js"
+  },
+  "options_ui": {
+    "open_in_tab": true,
+    "page": "options.html"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://*.douyin.com/*"
+      ],
+      "css": [
+        "content-scripts/content.css"
+      ],
+      "js": [
+        "content-scripts/content.js"
+      ]
+    }
+  ]
+}

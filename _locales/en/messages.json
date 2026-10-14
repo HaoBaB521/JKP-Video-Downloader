@@ -1,0 +1,167 @@
+{
+  "manifest_name": {
+    "message": "Douyin Video Downloader"
+  },
+  "manifest_description": {
+    "message": "Download Douyin videos without watermarks."
+  },
+  "popup_review": {
+    "message": "Reviews"
+  },
+  "popup_setting": {
+    "message": "Settings"
+  },
+  "popup_feedback": {
+    "message": "Feedback"
+  },
+  "popup_telegram": {
+    "message": "Telegram"
+  },
+  "popup_feedbackEmailSubject": {
+    "message": "Feedback on Douyin Video Downloader"
+  },
+  "options_videoCreator": {
+    "message": "Creator"
+  },
+  "options_videoDescription": {
+    "message": "Description"
+  },
+  "options_videoResolution": {
+    "message": "Video Resolution"
+  },
+  "options_videoVid": {
+    "message": "Video ID"
+  },
+  "options_pageTitle": {
+    "message": "Douyin Video Downloader"
+  },
+  "options_downloadSetting": {
+    "message": "Download Settings"
+  },
+  "options_videoFileName": {
+    "message": "Video File Name"
+  },
+  "options_videoFileNameTooltip": {
+    "message": "The name of the downloaded video file will be generated according to the attributes and order in the input box below, separated by spaces."
+  },
+  "options_videoCreatorWithAt": {
+    "message": "Add an @ symbol before the video creator's name"
+  },
+  "options_videoCreatorWithAtTooltip": {
+    "message": "In the downloaded video file name, whether to add the @ symbol before the creator's name."
+  },
+  "options_videoDescriptionWithHashtag": {
+    "message": "Video description retains hashtags"
+  },
+  "options_videoDescriptionWithHashtagTip": {
+    "message": "In the downloaded video file names, whether to keep the hashtags starting with # in the video description."
+  },
+  "options_saveSetting": {
+    "message": "Save Settings"
+  },
+  "options_saveSuccess": {
+    "message": "Saved successfully"
+  },
+  "options_videoFileNameEmpty": {
+    "message": "Video file name cannot be empty, please select at least one"
+  },
+  "options_downloadTipSetting": {
+    "message": "Download Reminder"
+  },
+  "options_downloadTipSettingTip": {
+    "message": "When you click the download button, a download prompt will appear in the upper right corner of the window."
+  },
+  "options_parseInformation": {
+    "message": "Parsing information"
+  },
+  "options_parseInformationTip": {
+    "message": "In parsing information stage extension will parse all the information needed for downloading."
+  },
+  "options_startDownload": {
+    "message": "Start download"
+  },
+  "options_startDownloadTip": {
+    "message": "In start download stage you can see the browser start downloading a file and you can check the download progress on the browser's download page."
+  },
+  "options_completeDownload": {
+    "message": "Download Complete"
+  },
+  "options_completeDownloadTip": {
+    "message": "In the download completion stage, the file has been downloaded and you can view the downloaded file in the resource manager."
+  },
+  "options_videoQuality": {
+    "message": "Video Quality"
+  },
+  "options_videoQualityTip": {
+    "message": "In what quality to download videos"
+  },
+  "options_videoHighestResolution": {
+    "message": "Highest Resolution"
+  },
+  "options_videoHighestBitrate": {
+    "message": "Highest Bitrate"
+  },
+  "options_videoLargestFileSize": {
+    "message": "Largest File Size"
+  },
+  "options_downloadSubdirectory": {
+    "message": "Download Subdirectory"
+  },
+  "options_downloadSubdirectoryTip": {
+    "message": "Subdirectory for file downloads"
+  },
+  "options_enableSubdirectory": {
+    "message": "Subdirectory"
+  },
+  "options_enableSubdirectoryTip": {
+    "message": "Whether to download files to a subdirectory."
+  },
+  "options_subdirectoryName": {
+    "message": "Subdirectory Name"
+  },
+  "options_subdirectoryNameTip": {
+    "message": "Specify a subdirectory name"
+  },
+  "options_subdirectoryEmpty": {
+    "message": "Subdirectory cannot be empty"
+  },
+  "options_subdirectoryIllegal": {
+    "message": "Subdirectory contains illegal characters"
+  },
+  "snackbar_parseInformation": {
+    "message": "Parsing information"
+  },
+  "snackbar_parseInformationFail": {
+    "message": "Failed to parse the video information, please refresh the page and try again"
+  },
+  "snackbar_startDownload": {
+    "message": "Start download"
+  },
+  "snackbar_completeDownload": {
+    "message": "Download Complete"
+  },
+  "snackbar_downloadFailed": {
+    "message": "Download failed, please refresh the page and try again"
+  },
+  "snackbar_findVidError": {
+    "message": "Failed to parse video information, please send an email to feedback the issue"
+  },
+  "options_fileNameLogic": {
+    "message": "File Name Logic"
+  },
+  "options_fileNameLogicTip": {
+    "message": "Select the logic used to generate the video file name. Only one can be enabled at a time."
+  },
+  "options_fileNameLogicPrimary": {
+    "message": "Primary Generator"
+  },
+  "options_fileNameLogicPrimaryTip": {
+    "message": "Reads the author, description and tags from page data to build the file name, falling back to DOM elements when needed."
+  },
+  "options_fileNameLogicBackup": {
+    "message": "Generator 2"
+  },
+  "options_fileNameLogicBackupTip": {
+    "message": "Locates the active feed card to read the author and description, for use when the primary logic fails."
+  }
+}

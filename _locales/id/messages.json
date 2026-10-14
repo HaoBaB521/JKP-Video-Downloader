@@ -1,0 +1,167 @@
+{
+  "manifest_name": {
+    "message": "Pengunduh Video Douyin"
+  },
+  "manifest_description": {
+    "message": "Unduh video Douyin tanpa watermark."
+  },
+  "popup_review": {
+    "message": "Ulasan"
+  },
+  "popup_setting": {
+    "message": "Pengaturan"
+  },
+  "popup_feedback": {
+    "message": "Umpan Balik"
+  },
+  "popup_telegram": {
+    "message": "Telegram"
+  },
+  "popup_feedbackEmailSubject": {
+    "message": "Umpan Balik tentang Pengunduh Video Douyin"
+  },
+  "options_videoCreator": {
+    "message": "Pembuat"
+  },
+  "options_videoDescription": {
+    "message": "Deskripsi"
+  },
+  "options_videoResolution": {
+    "message": "Resolusi Video"
+  },
+  "options_videoVid": {
+    "message": "ID Video"
+  },
+  "options_pageTitle": {
+    "message": "Pengunduh Video Douyin"
+  },
+  "options_downloadSetting": {
+    "message": "Pengaturan Unduhan"
+  },
+  "options_videoFileName": {
+    "message": "Nama File Video"
+  },
+  "options_videoFileNameTooltip": {
+    "message": "Nama file video yang diunduh akan dibuat berdasarkan atribut dan urutan dalam kotak input di bawah, dipisahkan dengan spasi."
+  },
+  "options_videoCreatorWithAt": {
+    "message": "Tambahkan simbol @ sebelum nama pembuat"
+  },
+  "options_videoCreatorWithAtTooltip": {
+    "message": "Dalam nama file yang diunduh, apakah akan menambahkan simbol @ sebelum nama pembuat."
+  },
+  "options_videoDescriptionWithHashtag": {
+    "message": "Pertahankan hashtag dalam deskripsi"
+  },
+  "options_videoDescriptionWithHashtagTip": {
+    "message": "Dalam nama file yang diunduh, apakah akan mempertahankan hashtag yang dimulai dengan # dalam deskripsi video."
+  },
+  "options_saveSetting": {
+    "message": "Simpan Pengaturan"
+  },
+  "options_saveSuccess": {
+    "message": "Berhasil disimpan"
+  },
+  "options_videoFileNameEmpty": {
+    "message": "Nama file video tidak boleh kosong, pilih setidaknya satu"
+  },
+  "options_downloadTipSetting": {
+    "message": "Notifikasi Unduhan"
+  },
+  "options_downloadTipSettingTip": {
+    "message": "Saat mengklik tombol unduh, notifikasi akan muncul di pojok kanan atas jendela."
+  },
+  "options_parseInformation": {
+    "message": "Menganalisis informasi"
+  },
+  "options_parseInformationTip": {
+    "message": "Dalam tahap analisis informasi, ekstensi akan menganalisis semua informasi yang diperlukan untuk mengunduh."
+  },
+  "options_startDownload": {
+    "message": "Mulai Unduh"
+  },
+  "options_startDownloadTip": {
+    "message": "Dalam tahap mulai unduh, Anda akan melihat browser mulai mengunduh file dan dapat memeriksa kemajuan di halaman unduhan browser."
+  },
+  "options_completeDownload": {
+    "message": "Unduhan Selesai"
+  },
+  "options_completeDownloadTip": {
+    "message": "Dalam tahap unduhan selesai, file telah diunduh dan Anda dapat melihat file yang diunduh di pengelola file."
+  },
+  "options_videoQuality": {
+    "message": "Kualitas Video"
+  },
+  "options_videoQualityTip": {
+    "message": "Dalam kualitas apa video akan diunduh"
+  },
+  "options_videoHighestResolution": {
+    "message": "Resolusi Tertinggi"
+  },
+  "options_videoHighestBitrate": {
+    "message": "Bitrate Tertinggi"
+  },
+  "options_videoLargestFileSize": {
+    "message": "Ukuran File Terbesar"
+  },
+  "options_downloadSubdirectory": {
+    "message": "Subdirektori Unduhan"
+  },
+  "options_downloadSubdirectoryTip": {
+    "message": "Subdirektori untuk unduhan file"
+  },
+  "options_enableSubdirectory": {
+    "message": "Subdirektori"
+  },
+  "options_enableSubdirectoryTip": {
+    "message": "Apakah file akan diunduh ke subdirektori."
+  },
+  "options_subdirectoryName": {
+    "message": "Nama Subdirektori"
+  },
+  "options_subdirectoryNameTip": {
+    "message": "Tentukan nama subdirektori"
+  },
+  "options_subdirectoryEmpty": {
+    "message": "Subdirektori tidak boleh kosong"
+  },
+  "options_subdirectoryIllegal": {
+    "message": "Subdirektori mengandung karakter tidak valid"
+  },
+  "snackbar_parseInformation": {
+    "message": "Menganalisis informasi"
+  },
+  "snackbar_parseInformationFail": {
+    "message": "Gagal menganalisis informasi video, silakan segarkan halaman dan coba lagi"
+  },
+  "snackbar_startDownload": {
+    "message": "Mulai Mengunduh"
+  },
+  "snackbar_completeDownload": {
+    "message": "Unduhan Selesai"
+  },
+  "snackbar_downloadFailed": {
+    "message": "Gagal mengunduh, silakan segarkan halaman dan coba lagi"
+  },
+  "snackbar_findVidError": {
+    "message": "Gagal menganalisis informasi video, silakan kirim email ke pengembang untuk melaporkan masalah"
+  },
+  "options_fileNameLogic": {
+    "message": "Logika Nama File"
+  },
+  "options_fileNameLogicTip": {
+    "message": "Pilih logika yang digunakan untuk membuat nama file video. Hanya satu yang dapat diaktifkan."
+  },
+  "options_fileNameLogicPrimary": {
+    "message": "Generator Utama"
+  },
+  "options_fileNameLogicPrimaryTip": {
+    "message": "Membaca penulis, deskripsi dan tag dari data halaman, dengan cadangan ke elemen DOM."
+  },
+  "options_fileNameLogicBackup": {
+    "message": "Generator 2"
+  },
+  "options_fileNameLogicBackupTip": {
+    "message": "Menemukan kartu aktif untuk membaca penulis dan deskripsi, untuk saat logika utama gagal."
+  }
+}

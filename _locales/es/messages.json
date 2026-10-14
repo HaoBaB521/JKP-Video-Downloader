@@ -1,0 +1,167 @@
+{
+  "manifest_name": {
+    "message": "Descargador de Videos de Douyin"
+  },
+  "manifest_description": {
+    "message": "Descarga videos de Douyin sin marca de agua."
+  },
+  "popup_review": {
+    "message": "Reseñas"
+  },
+  "popup_setting": {
+    "message": "Ajustes"
+  },
+  "popup_feedback": {
+    "message": "Comentarios"
+  },
+  "popup_telegram": {
+    "message": "Telegram"
+  },
+  "popup_feedbackEmailSubject": {
+    "message": "Comentarios sobre el Descargador de Videos de Douyin"
+  },
+  "options_videoCreator": {
+    "message": "Creador"
+  },
+  "options_videoDescription": {
+    "message": "Descripción"
+  },
+  "options_videoResolution": {
+    "message": "Resolución del Video"
+  },
+  "options_videoVid": {
+    "message": "ID del Video"
+  },
+  "options_pageTitle": {
+    "message": "Descargador de Videos de Douyin"
+  },
+  "options_downloadSetting": {
+    "message": "Ajustes de Descarga"
+  },
+  "options_videoFileName": {
+    "message": "Nombre del Archivo"
+  },
+  "options_videoFileNameTooltip": {
+    "message": "El nombre del archivo de video descargado se generará según los atributos y el orden en el cuadro de entrada de abajo, separados por espacios."
+  },
+  "options_videoCreatorWithAt": {
+    "message": "Agregar símbolo @ antes del nombre del creador"
+  },
+  "options_videoCreatorWithAtTooltip": {
+    "message": "En el nombre del archivo descargado, si se debe agregar el símbolo @ antes del nombre del creador."
+  },
+  "options_videoDescriptionWithHashtag": {
+    "message": "Mantener hashtags en la descripción"
+  },
+  "options_videoDescriptionWithHashtagTip": {
+    "message": "En el nombre del archivo descargado, si se deben mantener los hashtags que comienzan con # en la descripción del video."
+  },
+  "options_saveSetting": {
+    "message": "Guardar Ajustes"
+  },
+  "options_saveSuccess": {
+    "message": "Guardado exitosamente"
+  },
+  "options_videoFileNameEmpty": {
+    "message": "El nombre del archivo no puede estar vacío, seleccione al menos uno"
+  },
+  "options_downloadTipSetting": {
+    "message": "Notificación de Descarga"
+  },
+  "options_downloadTipSettingTip": {
+    "message": "Al hacer clic en el botón de descarga, aparecerá una notificación en la esquina superior derecha de la ventana."
+  },
+  "options_parseInformation": {
+    "message": "Analizando información"
+  },
+  "options_parseInformationTip": {
+    "message": "En la etapa de análisis de información, la extensión analizará toda la información necesaria para la descarga."
+  },
+  "options_startDownload": {
+    "message": "Iniciar Descarga"
+  },
+  "options_startDownloadTip": {
+    "message": "En la etapa de inicio de descarga, verá que el navegador comienza a descargar el archivo y puede verificar el progreso en la página de descargas del navegador."
+  },
+  "options_completeDownload": {
+    "message": "Descarga Completada"
+  },
+  "options_completeDownloadTip": {
+    "message": "En la etapa de descarga completada, el archivo ha sido descargado y puede ver el archivo descargado en el explorador de archivos."
+  },
+  "options_videoQuality": {
+    "message": "Calidad del Video"
+  },
+  "options_videoQualityTip": {
+    "message": "En qué calidad descargar los videos"
+  },
+  "options_videoHighestResolution": {
+    "message": "Máxima Resolución"
+  },
+  "options_videoHighestBitrate": {
+    "message": "Máxima Tasa de Bits"
+  },
+  "options_videoLargestFileSize": {
+    "message": "Mayor Tamaño de Archivo"
+  },
+  "options_downloadSubdirectory": {
+    "message": "Subcarpeta de Descarga"
+  },
+  "options_downloadSubdirectoryTip": {
+    "message": "Subcarpeta para descargas de archivos"
+  },
+  "options_enableSubdirectory": {
+    "message": "Subcarpeta"
+  },
+  "options_enableSubdirectoryTip": {
+    "message": "Si se deben descargar los archivos a una subcarpeta."
+  },
+  "options_subdirectoryName": {
+    "message": "Nombre de Subcarpeta"
+  },
+  "options_subdirectoryNameTip": {
+    "message": "Especificar nombre de subcarpeta"
+  },
+  "options_subdirectoryEmpty": {
+    "message": "La subcarpeta no puede estar vacía"
+  },
+  "options_subdirectoryIllegal": {
+    "message": "La subcarpeta contiene caracteres no válidos"
+  },
+  "snackbar_parseInformation": {
+    "message": "Analizando información"
+  },
+  "snackbar_parseInformationFail": {
+    "message": "Error al analizar la información del video, por favor actualice la página e intente de nuevo"
+  },
+  "snackbar_startDownload": {
+    "message": "Iniciando Descarga"
+  },
+  "snackbar_completeDownload": {
+    "message": "Descarga Completada"
+  },
+  "snackbar_downloadFailed": {
+    "message": "Error en la descarga, por favor actualice la página e intente de nuevo"
+  },
+  "snackbar_findVidError": {
+    "message": "Error al analizar la información del video, por favor envíe un correo electrónico al desarrollador para informar del problema"
+  },
+  "options_fileNameLogic": {
+    "message": "Lógica de nombre de archivo"
+  },
+  "options_fileNameLogicTip": {
+    "message": "Seleccione la lógica para generar el nombre del archivo de video. Solo se puede activar una a la vez."
+  },
+  "options_fileNameLogicPrimary": {
+    "message": "Generador principal"
+  },
+  "options_fileNameLogicPrimaryTip": {
+    "message": "Lee autor, descripción y etiquetas de los datos de la página, con respaldo en elementos DOM."
+  },
+  "options_fileNameLogicBackup": {
+    "message": "Generador 2"
+  },
+  "options_fileNameLogicBackupTip": {
+    "message": "Localiza la tarjeta activa para leer autor y descripción, para cuando falle la lógica principal."
+  }
+}

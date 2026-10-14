@@ -1,0 +1,167 @@
+{
+  "manifest_name": {
+    "message": "Trình Tải Video Douyin"
+  },
+  "manifest_description": {
+    "message": "Tải video Douyin không có watermark."
+  },
+  "popup_review": {
+    "message": "Đánh giá"
+  },
+  "popup_setting": {
+    "message": "Cài đặt"
+  },
+  "popup_feedback": {
+    "message": "Phản hồi"
+  },
+  "popup_telegram": {
+    "message": "Telegram"
+  },
+  "popup_feedbackEmailSubject": {
+    "message": "Phản hồi về Trình Tải Video Douyin"
+  },
+  "options_videoCreator": {
+    "message": "Người tạo"
+  },
+  "options_videoDescription": {
+    "message": "Mô tả"
+  },
+  "options_videoResolution": {
+    "message": "Độ phân giải video"
+  },
+  "options_videoVid": {
+    "message": "ID video"
+  },
+  "options_pageTitle": {
+    "message": "Trình Tải Video Douyin"
+  },
+  "options_downloadSetting": {
+    "message": "Cài đặt tải xuống"
+  },
+  "options_videoFileName": {
+    "message": "Tên tệp video"
+  },
+  "options_videoFileNameTooltip": {
+    "message": "Tên tệp video tải xuống sẽ được tạo theo các thuộc tính và thứ tự trong hộp nhập liệu bên dưới, phân cách bằng dấu cách."
+  },
+  "options_videoCreatorWithAt": {
+    "message": "Thêm ký hiệu @ trước tên người tạo"
+  },
+  "options_videoCreatorWithAtTooltip": {
+    "message": "Trong tên tệp tải xuống, có thêm ký hiệu @ trước tên người tạo hay không."
+  },
+  "options_videoDescriptionWithHashtag": {
+    "message": "Giữ hashtag trong mô tả"
+  },
+  "options_videoDescriptionWithHashtagTip": {
+    "message": "Trong tên tệp tải xuống, có giữ lại các hashtag bắt đầu bằng # trong mô tả video hay không."
+  },
+  "options_saveSetting": {
+    "message": "Lưu cài đặt"
+  },
+  "options_saveSuccess": {
+    "message": "Đã lưu thành công"
+  },
+  "options_videoFileNameEmpty": {
+    "message": "Tên tệp video không được để trống, vui lòng chọn ít nhất một"
+  },
+  "options_downloadTipSetting": {
+    "message": "Thông báo tải xuống"
+  },
+  "options_downloadTipSettingTip": {
+    "message": "Khi bấm nút tải xuống, một thông báo sẽ xuất hiện ở góc trên bên phải của cửa sổ."
+  },
+  "options_parseInformation": {
+    "message": "Đang phân tích thông tin"
+  },
+  "options_parseInformationTip": {
+    "message": "Trong giai đoạn phân tích thông tin, tiện ích mở rộng sẽ phân tích tất cả thông tin cần thiết cho việc tải xuống."
+  },
+  "options_startDownload": {
+    "message": "Bắt đầu tải xuống"
+  },
+  "options_startDownloadTip": {
+    "message": "Trong giai đoạn bắt đầu tải xuống, bạn sẽ thấy trình duyệt bắt đầu tải tệp và có thể kiểm tra tiến trình trên trang tải xuống của trình duyệt."
+  },
+  "options_completeDownload": {
+    "message": "Tải xuống hoàn tất"
+  },
+  "options_completeDownloadTip": {
+    "message": "Trong giai đoạn hoàn tất tải xuống, tệp đã được tải xuống và bạn có thể xem tệp đã tải trong trình quản lý tệp."
+  },
+  "options_videoQuality": {
+    "message": "Chất lượng video"
+  },
+  "options_videoQualityTip": {
+    "message": "Chọn chất lượng video để tải xuống"
+  },
+  "options_videoHighestResolution": {
+    "message": "Độ phân giải cao nhất"
+  },
+  "options_videoHighestBitrate": {
+    "message": "Tốc độ bit cao nhất"
+  },
+  "options_videoLargestFileSize": {
+    "message": "Kích thước tệp lớn nhất"
+  },
+  "options_downloadSubdirectory": {
+    "message": "Thư mục con tải xuống"
+  },
+  "options_downloadSubdirectoryTip": {
+    "message": "Thư mục con cho tệp tải xuống"
+  },
+  "options_enableSubdirectory": {
+    "message": "Thư mục con"
+  },
+  "options_enableSubdirectoryTip": {
+    "message": "Có tải tệp vào thư mục con hay không."
+  },
+  "options_subdirectoryName": {
+    "message": "Tên thư mục con"
+  },
+  "options_subdirectoryNameTip": {
+    "message": "Chỉ định tên thư mục con"
+  },
+  "options_subdirectoryEmpty": {
+    "message": "Thư mục con không được để trống"
+  },
+  "options_subdirectoryIllegal": {
+    "message": "Thư mục con chứa ký tự không hợp lệ"
+  },
+  "snackbar_parseInformation": {
+    "message": "Đang phân tích thông tin"
+  },
+  "snackbar_parseInformationFail": {
+    "message": "Không thể phân tích thông tin video, vui lòng làm mới trang và thử lại"
+  },
+  "snackbar_startDownload": {
+    "message": "Bắt đầu tải xuống"
+  },
+  "snackbar_completeDownload": {
+    "message": "Tải xuống hoàn tất"
+  },
+  "snackbar_downloadFailed": {
+    "message": "Tải xuống thất bại, vui lòng làm mới trang và thử lại"
+  },
+  "snackbar_findVidError": {
+    "message": "Không thể phân tích thông tin video, vui lòng gửi email cho nhà phát triển để báo cáo sự cố"
+  },
+  "options_fileNameLogic": {
+    "message": "Logic tên tệp"
+  },
+  "options_fileNameLogicTip": {
+    "message": "Chọn logic dùng để tạo tên tệp video. Chỉ một logic có thể được bật tại một thời điểm."
+  },
+  "options_fileNameLogicPrimary": {
+    "message": "Bộ tạo chính"
+  },
+  "options_fileNameLogicPrimaryTip": {
+    "message": "Đọc tác giả, mô tả và thẻ từ dữ liệu trang, dự phòng bằng các phần tử DOM."
+  },
+  "options_fileNameLogicBackup": {
+    "message": "Bộ tạo số 2"
+  },
+  "options_fileNameLogicBackupTip": {
+    "message": "Xác định thẻ hoạt động để đọc tác giả và mô tả, dùng khi logic chính thất bại."
+  }
+}
