@@ -3,7 +3,7 @@
   "manifest_version": 3,
   "name": "__MSG_manifest_name__",
   "description": "__MSG_manifest_description__",
-  "version": "2.1",
+  "version": "2.2",
   "icons": {
     "16": "icon/16.png",
     "32": "icon/32.png",
@@ -64,7 +64,8 @@
         "content-scripts/content.css"
       ],
       "js": [
-        "content-scripts/content.js"
+        "content-scripts/content.js",
+        "content-scripts/jkp_extra.js"
       ]
     }
   ]
