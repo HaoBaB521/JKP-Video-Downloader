@@ -12,10 +12,12 @@
 
 ## 安装教程
 1. 下载本仓库 ZIP（Code → Download ZIP）并解压；
-2. 打开 Chrome / Edge，进入扩展管理页（`chrome://extensions` 或 `edge://extensions`）；
-3. 打开右上角「开发者模式」；
+2. 打开浏览器扩展管理页（Chrome: `chrome://extensions` / Edge: `edge://extensions` / Firefox: `about:debugging`）；
+3. 开启「开发者模式」（Firefox 选择「临时载入附加组件」）；
 4. 点击「加载已解压的扩展程序」，选择解压出的文件夹 `JKP（专注于视频下载）_2.2`；
 5. 打开抖音网页版，刷新页面即可使用。
+
+支持浏览器：**Google Chrome / Microsoft Edge / Mozilla Firefox**（Chromium / Firefox 内核）
 
 ## 主要功能
 
