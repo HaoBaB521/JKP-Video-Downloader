@@ -16,9 +16,9 @@ const ALLOWED_VIDEO_HOST_SUFFIXES = [
     "toutiao.com"
 ];
 const REACT_SCAN_INTERVAL_MS = 50;
-const REACT_SCAN_MAX_VISITED = 6000;
-const REACT_SCAN_MAX_QUEUED = 12000;
-const REACT_SCAN_MAX_DEPTH = 12;
+const REACT_SCAN_MAX_VISITED = 2000;
+const REACT_SCAN_MAX_QUEUED = 8000;
+const REACT_SCAN_MAX_DEPTH = 8;
 
 // Inspector ("检察官"): safety guard that validates inputs and wraps each step
 // so a single failing call never crashes the whole resolution pipeline.
@@ -492,6 +492,8 @@ async function resolvePageVideoDetailUncached(vid, forceIframe = false) {
 
     let fallbackDetail = null;
     for (const container of containers) {
+        // 快速跳过没有视频播放器的容器，避免无谓的 React fiber 深扫（大幅提速）
+        if (container.querySelector && !container.querySelector("video")) continue;
         const awemeInfo = inspector("scan-container", () => findAwemeInfo(container, vid));
         const detail = awemeInfo && inspector("convert-detail", () => toVideoDetail(awemeInfo, vid));
         if (detail) {
@@ -539,7 +541,7 @@ async function resolvePageVideoDetailUncached(vid, forceIframe = false) {
 
 // Pick the currently-playing <video> element on the page.
 // 等待一小段时间，让正在加载的 <video> 暴露播放地址，避免在播放前点击下载而拿不到链接。
-async function waitForLiveVideoSource(maxWaitMs = 800) {
+async function waitForLiveVideoSource(maxWaitMs = 250) {
     const deadline = Date.now() + maxWaitMs;
     let live = getLiveVideoSource();
     while (!live && Date.now() < deadline) {
