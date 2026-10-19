@@ -1,5 +1,5 @@
 /* ============================================================
- * JKP v2.2 新增功能模块（独立注入，不修改原逻辑）
+ * JKP v2.3 新增功能模块（独立注入，不修改原逻辑）
  * 主页检测：推荐流 / 视频卡片上自动挂载下载按钮
  * 快速下载：解析与下载并行，有播放地址立即下载，不互相阻塞
  * ============================================================ */
@@ -169,25 +169,9 @@
   // only feed cards get a button here; bare video links already get the grid
   // button from the main module, so no duplicate is created
   function enhanceHomeFeed() {
-    var cards = document.querySelectorAll('[data-e2e="feed-item"], [data-e2e="feed-video"]');
-    cards.forEach(function (card) {
-      if (card.querySelector(".douyin-feed-download")) return;
-      if (card.closest(".douyin-feed-download, .douyin-grid-download")) return;
-      if (card.closest("[data-e2e='feed-live']")) return;
-      var vid = vidFromElement(card);
-      if (!vid) return;
-      var btn = document.createElement("img");
-      btn.className = "douyin-feed-download";
-      btn.title = "下载该视频";
-      try { btn.src = C.runtime.getURL("/download_button.svg"); } catch (e) {}
-      btn.addEventListener("click", function (e) {
-        e.stopPropagation();
-        e.preventDefault();
-        downloadVid(vid);
-      }, { capture: true });
-      if (getComputedStyle(card).position === "static") card.style.position = "relative";
-      card.appendChild(btn);
-    });
+    // 按用户要求：移除推荐流/卡片上一直显示的下载按钮，
+    // 仅保留播放器悬停按钮（content.js .douyin-download-button）。
+    return;
   }
 
   // ---- init ----
