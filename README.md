@@ -1,6 +1,6 @@
 <div align="center">
 
-# JKP（专注于视频下载）
+<img src="jkp_logo.png" width="128" />
 
 > Douyin Video Downloader —— 抖音免水印视频下载扩展
 
