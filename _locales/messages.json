@@ -1,0 +1,167 @@
+{
+  "manifest_name": {
+    "message": "抖音影片下載器"
+  },
+  "manifest_description": {
+    "message": "下載無浮水印抖音影片。"
+  },
+  "popup_review": {
+    "message": "評價"
+  },
+  "popup_setting": {
+    "message": "設定"
+  },
+  "popup_feedback": {
+    "message": "反饋"
+  },
+  "popup_telegram": {
+    "message": "Telegram"
+  },
+  "popup_feedbackEmailSubject": {
+    "message": "關於抖音影片下載器的反饋"
+  },
+  "options_videoCreator": {
+    "message": "作者"
+  },
+  "options_videoDescription": {
+    "message": "描述"
+  },
+  "options_videoResolution": {
+    "message": "影片解析度"
+  },
+  "options_videoVid": {
+    "message": "影片ID"
+  },
+  "options_pageTitle": {
+    "message": "抖音影片下載器"
+  },
+  "options_downloadSetting": {
+    "message": "下載設定"
+  },
+  "options_videoFileName": {
+    "message": "影片檔名"
+  },
+  "options_videoFileNameTooltip": {
+    "message": "下載的影片檔名將根據下方輸入框中的屬性及順序產生，以空格分隔。"
+  },
+  "options_videoCreatorWithAt": {
+    "message": "在影片作者名稱前添加 @ 符號"
+  },
+  "options_videoCreatorWithAtTooltip": {
+    "message": "在下載的影片檔名中，是否在作者名稱前添加 @ 符號。"
+  },
+  "options_videoDescriptionWithHashtag": {
+    "message": "影片描述保留話題標籤"
+  },
+  "options_videoDescriptionWithHashtagTip": {
+    "message": "在下載的影片檔名中，是否保留影片描述中以 # 開頭的話題標籤。"
+  },
+  "options_saveSetting": {
+    "message": "儲存設定"
+  },
+  "options_saveSuccess": {
+    "message": "儲存成功"
+  },
+  "options_videoFileNameEmpty": {
+    "message": "影片檔名不能為空，請至少選擇一項"
+  },
+  "options_downloadTipSetting": {
+    "message": "下載提示"
+  },
+  "options_downloadTipSettingTip": {
+    "message": "點選下載按鈕時，視窗右上角會出現下載提示。"
+  },
+  "options_parseInformation": {
+    "message": "解析資訊"
+  },
+  "options_parseInformationTip": {
+    "message": "在解析資訊階段，擴充功能將解析下載所需的所有資訊。"
+  },
+  "options_startDownload": {
+    "message": "開始下載"
+  },
+  "options_startDownloadTip": {
+    "message": "在開始下載階段，您可以看到瀏覽器開始下載檔案，並且可以在瀏覽器的下載頁面查看下載進度。"
+  },
+  "options_completeDownload": {
+    "message": "下載完成"
+  },
+  "options_completeDownloadTip": {
+    "message": "在下載完成階段，檔案已下載完畢，您可以在檔案總管中查看下載的檔案。"
+  },
+  "options_videoQuality": {
+    "message": "影片品質"
+  },
+  "options_videoQualityTip": {
+    "message": "以何種品質下載影片"
+  },
+  "options_videoHighestResolution": {
+    "message": "最高解析度"
+  },
+  "options_videoHighestBitrate": {
+    "message": "最高位元率"
+  },
+  "options_videoLargestFileSize": {
+    "message": "最大檔案大小"
+  },
+  "options_downloadSubdirectory": {
+    "message": "下載子目錄"
+  },
+  "options_downloadSubdirectoryTip": {
+    "message": "檔案下載的子目錄"
+  },
+  "options_enableSubdirectory": {
+    "message": "子目錄"
+  },
+  "options_enableSubdirectoryTip": {
+    "message": "是否將檔案下載到子目錄。"
+  },
+  "options_subdirectoryName": {
+    "message": "子目錄名稱"
+  },
+  "options_subdirectoryNameTip": {
+    "message": "指定子目錄名稱"
+  },
+  "options_subdirectoryEmpty": {
+    "message": "子目錄不能為空"
+  },
+  "options_subdirectoryIllegal": {
+    "message": "子目錄包含非法字符"
+  },
+  "snackbar_parseInformation": {
+    "message": "正在解析資訊"
+  },
+  "snackbar_parseInformationFail": {
+    "message": "解析影片資訊失敗，請重新整理頁面並重試"
+  },
+  "snackbar_startDownload": {
+    "message": "開始下載"
+  },
+  "snackbar_completeDownload": {
+    "message": "下載完成"
+  },
+  "snackbar_downloadFailed": {
+    "message": "下載失敗，請重新整理頁面並重試"
+  },
+  "snackbar_findVidError": {
+    "message": "解析影片資訊失敗，請發送電郵向開發者反饋問題"
+  },
+  "options_fileNameLogic": {
+    "message": "檔案名稱產生邏輯"
+  },
+  "options_fileNameLogicTip": {
+    "message": "選擇產生影片檔名所用的主邏輯或備用邏輯，兩者只能啟用一個。"
+  },
+  "options_fileNameLogicPrimary": {
+    "message": "主要生成"
+  },
+  "options_fileNameLogicPrimaryTip": {
+    "message": "從頁面資料讀取作者、描述、話題產生檔名，失敗時自動回退到頁面元素讀取。"
+  },
+  "options_fileNameLogicBackup": {
+    "message": "2號生成"
+  },
+  "options_fileNameLogicBackupTip": {
+    "message": "透過頁面卡片元素精確定位目前影片並讀取作者、描述產生檔名，適用於主邏輯無法識別時切換。"
+  }
+}
